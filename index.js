@@ -119,12 +119,13 @@ For example, variableInterestRate(200000, 0.04, 30) should console.log:
         // function variableInterestRate (p, b, n, name, credit){
         //     for (i=0; i < 9; i++){
         //         let vir = b-.02+(i*.005)
+        //         var vir2 = vir.toFixed(3)
         //         let monthlyInterestRate = vir/12;
         //         let periods = n*12;
         //         let power = Math.pow(1+monthlyInterestRate, periods);
         //         let monthlyRate = p*(monthlyInterestRate*power)/(power-1);
         //         var dollar = monthlyRate.toFixed(2);
-        //         console.log(`${name}, with an interest rate of ${vir}, your monthly rate is $${dollar}.`);
+        //         console.log(`${name}, with an interest rate of ${vir2}, your monthly rate is $${dollar}.`);
         //     }
             
         // }
